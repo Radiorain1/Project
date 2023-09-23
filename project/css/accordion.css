@@ -1,0 +1,54 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 30px;
+  background: #0f0f0f;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-family: 'Neue Haas Unica';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.accordion-button:after {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.accordion-button.collapsed:after {
+  background-image: url(../img/svg/icon-plus.svg);
+}
+
+.accordion-button:not(.collapsed):after {
+  background-image: url(../img/svg/icon-minus.svg);
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.accordion-body {
+  padding: 20px 30px;
+}

@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h5 {
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 0.8;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+a {
+  outline: none !important;
+}
+
+strong {
+  font-weight: 800;
+}
+
+em {
+  font-style: italic;
+}
+
+.text-red {
+  color: #fb0862;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-indent {
+  text-indent: 30px;
+}
+
+.rgba-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-md {
+  font-weight: 500;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}

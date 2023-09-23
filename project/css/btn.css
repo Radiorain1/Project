@@ -1,0 +1,22 @@
+.button-primary {
+  padding: 13px 24px;
+  font-size: 18px;
+  border: 1px solid #fb0862;
+  background: #fb0862;
+  color: #fff;
+  font-family: 'Neue Haas Unica';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.36px;
+}
+
+.button-primary:hover {
+  border: 1px solid #fff;
+  background: #ff005e;
+}
+
+.button-primary:focus {
+  border: 1px solid #fb0862;
+  background: #000;
+}

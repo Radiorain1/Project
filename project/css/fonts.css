@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Neue Haas Unica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neue Haas Unica Regular'),
+    url(../fonts/NeueHaasUnica-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Neue Haas Unica Medium'),
+    url(../fonts/NeueHaasUnica-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Neue Haas Unica ExtraBold'),
+    url(../fonts/NeueHaasUnica-ExtraBold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Neue Haas Unica MediumItalic'),
+    url(../fonts/NeueHaasUnica-MediumItalic.woff2) format('woff2');
+}

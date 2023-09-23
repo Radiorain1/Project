@@ -1,0 +1,33 @@
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-control {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #FB0862;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.carousel-control-container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+}
+
+.list-vertical {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list-horizontal {
+  gap: 40px;
+}
+
+.list-horizontal.list-gutter-sm {
+  gap: 12px;
+}
+
+.list-item-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-item-link:hover,
+.list-item-link:active {
+  color: #fb0862;
+  text-decoration: none;
+}

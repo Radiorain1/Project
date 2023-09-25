@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-h5 {
+h5,
+h6 {
   font-weight: 800;
   line-height: 1.5;
   margin: 0;
@@ -35,6 +36,11 @@ em {
   font-style: italic;
 }
 
+p {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
 .text-red {
   color: #fb0862;
 }
@@ -47,7 +53,7 @@ em {
   text-indent: 30px;
 }
 
-.rgba-text {
+.text-muted {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -61,4 +67,8 @@ em {
 
 .text-nowrap {
   white-space: nowrap;
+}
+
+.text-lg {
+  font-size: 18px;
 }

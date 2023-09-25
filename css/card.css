@@ -1,0 +1,100 @@
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  grid-row-gap: 100px;
+}
+
+.grid-card-horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.card-vertical {
+  width: 286px;
+}
+
+.card-vertical .card-img {
+  height: 289px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #fb0862;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  max-width: 280px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  color: #fb0862;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.card-link:after {
+  content: '';
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../img/svg/title_4arrow.svg);
+  margin-top: -2px;
+  margin-left: auto;
+  transform: rotate(-90deg);
+}
+
+.card-horizontal {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-horizontal-reverse {
+  flex-direction: row-reverse;
+}
+
+.card-horizontal-reverse .card-img {
+  text-align: right;
+}
+
+.card-horizontal .card-img {
+  flex-grow: 1;
+}
+
+.card-horizontal .card-img img {
+  width: auto;
+  height: 319px;
+  vertical-align: top;
+}
+
+.card-horizontal .card-body {
+  width: 280px;
+  min-width: 280px;
+}
+
+.card-horizontal .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

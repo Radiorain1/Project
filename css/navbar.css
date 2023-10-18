@@ -1,0 +1,40 @@
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #fb0862;
+  text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.navbar-toggler {
+    display: none;
+}
+}

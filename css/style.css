@@ -10,6 +10,7 @@
 @import './link.css';
 @import './card.css';
 @import './list.css';
+@import './navbar.css';
 
 /* Helpers */
 .ml-auto {
@@ -124,6 +125,19 @@
   margin-bottom: 130px;
 }
 
+@media (max-width: 992px) {
+  .subscription {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscription {
+    height: 240px;
+  }
+}
+
+
 .subscription-title {
   position: absolute;
   top: 0;
@@ -175,6 +189,7 @@
 /* Gallery */
 .gallery {
   margin-bottom: 130px;
+  margin-top: 130px;
 }
 /* Gallery */
 

@@ -1,9 +1,10 @@
 .header-container {
-  padding-bottom: 20px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   width: 100%;
-  padding-top: 40px;
   z-index: 1000;
 }
 

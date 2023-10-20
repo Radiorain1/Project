@@ -35,7 +35,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(1, auto);
-  grid-row-gap: 100px;
+  grid-row-gap: 40px;
   column-gap: 50px;
 }
 
@@ -52,6 +52,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
+    grid-row-gap: 50px;
   }
 }
 
@@ -60,6 +61,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     justify-content: space-between;
+    grid-row-gap: 100px;
   }
 
   .grid-lg-stretch {

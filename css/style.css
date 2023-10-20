@@ -238,6 +238,7 @@
   }
   .d-flex-column {
     gap: 40px;
+    flex-direction: column-reverse;
   }
 }
 
